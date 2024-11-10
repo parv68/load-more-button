@@ -1,0 +1,28 @@
+.load-more-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.product{
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 20px;
+    color: black;
+    background: white;
+    border-radius: 5px;
+}
